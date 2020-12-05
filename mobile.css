@@ -169,6 +169,9 @@
     .logo a h3 {
         font-size: 14px;
     }
+    .product-feature .container ul li {
+        width: calc(25% - 15px);
+    }
 
     ul.menu li {
         padding: 5px 10px;
@@ -197,7 +200,17 @@
         text-align: center;
         line-height: 14px;
     }
-
+    .product-feature .container{
+        padding: 0 7.5px;
+    }
+    .product-feature .container ul li {
+        width: calc(25% - 15px);
+        margin: 0 7.5px;
+        margin-top: 25px;
+    }
+     .product-feature .container ul {
+        justify-content: flex-start;
+    }
     .best-seller .container ul li h3 {
         text-transform: uppercase;
         font-size: 14px;
@@ -323,7 +336,7 @@
         margin-right: 5px;
     }
 }
-@media screen and (max-width: 572px){
+@media screen and (max-width: 600px){
     .best-seller .container ul li.seller-text {
         padding: 0;
     }
@@ -411,7 +424,7 @@
         display: block;
     } */
 }
-@media screen and (max-width: 460px){
+@media screen and (max-width: 500px){
     .best-seller .container ul li {
         width: calc(50% - 7.5px);
         margin-bottom: 20px;
